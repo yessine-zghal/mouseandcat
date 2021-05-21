@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>images/dot.png</file>
+        <file>images/map.png</file>
+        <file>images/eyeball.png</file>
+         <file>images/cat_pink.png</file>
+        <file>images/cat_orange1.png</file>
+        <file>images/cat_yellow.png</file>
+        <file>images/mouse.png</file>
+         <file>images/cat_frightned.png</file>
+          <file>images/cat_gray.png</file>
+    </qresource>
+</RCC>
