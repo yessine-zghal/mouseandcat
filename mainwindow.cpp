@@ -325,7 +325,6 @@ void MainWindow::update()
         disconnect(catt4Timer,SIGNAL(timeout()),this,SLOT(cat4UpdateWhenScared()));
 
     }
-    //dqDebug()<<static_cast<Ghost*>(ghost1)->getghostfear()<<static_cast<Ghost*>(ghost2)->getghostfear()<<static_cast<Ghost*>(ghost3)->getghostfear()<<static_cast<Ghost*>(ghost4)->getghostfear();
     checkEncounterCat();
     if(eyeTurnNormal1==true&&static_cast<Cat*>(cat1)->getcatfear()==3){
         if(time1->elapsed()>2000 && time1->elapsed()<2100){
